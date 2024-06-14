@@ -1,2 +1,2 @@
 # Embedded-Linux
-This repo include tasks for embedded linux diploma (Moatesm Elsaid)
+This repo includes tasks for embedded linux diploma (Moatesm Elsaid)
