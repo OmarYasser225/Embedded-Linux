@@ -3,6 +3,6 @@
 
 2- choose profile.
 
-3- select all unread mail.
+3- select all unread mails.
 
-4- make it read.
+4- make them read.
