@@ -14,3 +14,26 @@ there are 2 file with extension (.py)
 - contain the main project
 ### 2-main_function.py (module)
 - contain the main functions of alexa like listen , speak , and etc...
+
+# Additional note
+- the file called __effect.mp3__ this  music file i added to make me an indication to speak
+- you can also  make it by add the following function in ____init.py____ file for __speech recognition__ module 
+```python
+def music_open(audio_file):
+     # Initialize the mixer
+        pygame.mixer.init()
+
+        # Load the audio file
+        pygame.mixer.music.load(audio_file)
+
+        # Play the audio file
+        pygame.mixer.music.play()
+
+        # Keep the program running to allow the music to play
+        while pygame.mixer.music.get_busy():
+            pygame.time.Clock().tick(10)
+
+        # Stop audio file and close the mixer
+        pygame.mixer.music.stop()
+```
+- then call this function in __class Recognizer__
