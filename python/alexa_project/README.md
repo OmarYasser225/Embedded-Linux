@@ -17,7 +17,7 @@ there are 2 file with extension (.py)
 
 # Additional note
 - the file called __effect.mp3__ this  music file i added to make me an indication to speak
-- you can also  make it by add the following function in ____init.py____ file for __speech recognition__ module 
+- you can also  make it by add the following function in **`__init__.py`** file for __speech recognition__ module 
 ```python
 def music_open(audio_file):
      # Initialize the mixer
