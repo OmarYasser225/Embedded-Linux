@@ -37,8 +37,7 @@ def music_open(audio_file):
         pygame.mixer.music.stop()
 ```
 - then call this function in **`class Recognizer`** like the following
-```markdown
-
+```markdown ```python
 class Recognizer(AudioSource):
     def __init__(self):
         """
