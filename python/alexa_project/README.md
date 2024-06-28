@@ -37,5 +37,5 @@ def music_open(audio_file):
         pygame.mixer.music.stop()
 ```
 - then call this function in **`class Recognizer`** like in photo
-![Alt Text]([url](https://drive.google.com/file/d/10-Vmvb-rAivh3Ue7QabH0-YcZN30aNlf/view?usp=sharing))
+![Project Image](https://drive.google.com/file/d/10-Vmvb-rAivh3Ue7QabH0-YcZN30aNlf/view?usp=sharing)
 
