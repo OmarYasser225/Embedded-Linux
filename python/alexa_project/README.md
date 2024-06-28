@@ -54,8 +54,8 @@ class Recognizer(AudioSource):
 
         self.phrase_threshold = 0.3 
         self.non_speaking_duration = 0.5
-```
-```
+``````
+
 
 
 
