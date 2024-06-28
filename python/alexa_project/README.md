@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 # Files description
 there are 2 file with extension (.py)
-### alexa_project.py (excutable)
+### 1-alexa_project.py (excutable)
 - contain the main project
-### main_function.py (module)
+### 2-main_function.py (module)
 - contain the main function of alexa like listen , speak , and etc...
