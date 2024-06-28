@@ -6,5 +6,5 @@ The Voice Assistant project is a Python-based application designed to provide in
 # Important note
 You need first to install the requirements.txt file by the following line
 ```bash
- $ ./pip install -r requirements.txt 
+pip install -r requirements.txt 
 ```
