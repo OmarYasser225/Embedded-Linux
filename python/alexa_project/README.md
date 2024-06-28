@@ -37,13 +37,14 @@ def music_open(audio_file):
         pygame.mixer.music.stop()
 ```
 - then call this function in **`class Recognizer`** like the following
+```markdown
 ```python
 class Recognizer(AudioSource):
     def __init__(self):
         """
         Creates a new ``Recognizer`` instance, which represents a collection of speech recognition functionality.
         """
-        **`music_open("effect.mp3")`**
+        music_open("effect.mp3") #{6}
         self.energy_threshold = 300  # minimum audio energy to consider for recording
         self.dynamic_energy_threshold = True
         self.dynamic_energy_adjustment_damping = 0.15
