@@ -36,4 +36,4 @@ def music_open(audio_file):
         # Stop audio file and close the mixer
         pygame.mixer.music.stop()
 ```
-- then call this function in __class Recognizer__
+- then call this function in **`class Recognizer`**
