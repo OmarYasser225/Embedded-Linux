@@ -44,7 +44,7 @@ class Recognizer(AudioSource):
         """
         Creates a new ``Recognizer`` instance, which represents a collection of speech recognition functionality.
         """
-        music_open("effect.mp3")  # this is the function that i added in __init.py__ file
+        music_open("effect.mp3")  `# this is the function that i added in __init.py__ file`
         self.energy_threshold = 300  
         self.dynamic_energy_threshold = True
         self.dynamic_energy_adjustment_damping = 0.15
