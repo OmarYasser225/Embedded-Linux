@@ -37,6 +37,9 @@ def music_open(audio_file):
         pygame.mixer.music.stop()
 ```
 - then call this function in **`class Recognizer`** like in photo
-[![MasterHead](https://drive.google.com/file/d/10-Vmvb-rAivh3Ue7QabH0-YcZN30aNlf/view?usp=sharing)
+
+  ![Image Description](https://github.com/OmarYasser225/Embedded-Linux/raw/main/python/alexa_project/pic.png)
+
+
 
 
