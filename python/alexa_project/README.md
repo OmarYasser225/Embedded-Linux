@@ -38,7 +38,7 @@ def music_open(audio_file):
 ```
 - then call this function in **`class Recognizer`** like the following
 ```markdown
-```python
+
 class Recognizer(AudioSource):
     def __init__(self):
         """
