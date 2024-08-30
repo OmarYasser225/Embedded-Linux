@@ -1,4 +1,4 @@
-### PC Remote Controller via Mobile Application
+# PC Remote Controller via Mobile Application
 
 #### Overview:
 The project consists of a PC remote controller system that enables users to control various aspects of a Windows-based PC through a mobile application. The system is built with a server-side application written in C++ and a client-side application built using Kivy (Python) for the mobile interface. The communication between the client and server is established over TCP/IP.
@@ -8,7 +8,7 @@ The project consists of a PC remote controller system that enables users to cont
 g++ -o server.exe pc_controller.cpp Server\TCP_Server.cpp System\system.cpp  -lws2_32 -liphlpapi
 ```
 
-#### 1- Components:
+# 1- Components:
 
 1. **Server-side (C++ Application):**
    - The server application is responsible for listening for incoming connections and executing commands received from the client. It includes a `TCP_Server` class for handling network communication and a `System` class for executing commands on the PC.
@@ -23,7 +23,7 @@ g++ -o server.exe pc_controller.cpp Server\TCP_Server.cpp System\system.cpp  -lw
    - Users can connect to the server by providing the IP address and port number.
    - The interface includes buttons for launching applications, opening websites, executing terminal commands, and performing system actions.
 
-#### 2- Functionality:
+# 2- Functionality:
 
 - **Server Initialization and Client Communication:**
   - The server initializes a TCP socket and listens for client connections.
@@ -45,7 +45,7 @@ g++ -o server.exe pc_controller.cpp Server\TCP_Server.cpp System\system.cpp  -lw
     - **Terminal Control:** Allows users to send terminal commands.
     - **System Control:** Performs actions like shutdown, reboot, and sleep.
 
-#### 3- Features:
+# 3- Features:
 
 1. **Dynamic Application and Web Control:**
    - Users can remotely open applications or web links defined on the server.
@@ -59,7 +59,7 @@ g++ -o server.exe pc_controller.cpp Server\TCP_Server.cpp System\system.cpp  -lw
 4. **Real-time Communication:**
    - The client and server communicate in real-time using TCP/IP, providing a seamless user experience.
 
-#### 4- Usage:
+# 4- Usage:
 
 1. **Start the Server:**
    - Run the server application on the PC to start listening for incoming connections.
@@ -76,7 +76,7 @@ g++ -o server.exe pc_controller.cpp Server\TCP_Server.cpp System\system.cpp  -lw
 4. **Close the Connection:**
    - The connection can be closed from the mobile app, which will terminate the server’s command execution loop.
 
-#### 5- Future Enhancements:
+# 5- Future Enhancements:
 
 - **Cross-Platform Support:** Extend support to Linux and MacOS systems.
 - **Authentication:** Add user authentication for secure connections.
